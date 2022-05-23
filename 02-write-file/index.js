@@ -4,6 +4,7 @@ const readline = require('readline');
 
 
 fs.createWriteStream(path.join(__dirname, 'result.txt'));
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
