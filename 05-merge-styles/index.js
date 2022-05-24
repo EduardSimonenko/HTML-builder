@@ -31,9 +31,6 @@ fs.readdir(path.join(__dirname, 'styles'), (err, files) => {
         );
 
       }
-      // fs.copyFile(path.join(__dirname, 'files', file), path.join(__dirname, 'files-copy', file), fs.constants.COPYFILE_EXCL, (err) => {
-      //   if (err) throw err;
-      // });
     });
   }
 });
