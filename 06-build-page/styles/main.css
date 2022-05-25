@@ -54,15 +54,15 @@ main .container {
 }
 
 .item1 {
-  background-image: url('assets/img/item1.jpg');
+  background-image: url('./assets/img/item1.jpg');
 }
 
 .item2 {
-  background-image: url('assets/img/item2.jpg');
+  background-image: url('./assets/img/item2.jpg');
 }
 
 .item3 {
-  background-image: url('assets/img/item3.jpg');
+  background-image: url('./assets/img/item3.jpg');
 }
 
 .item-title {
@@ -107,11 +107,11 @@ main .container {
 }
 
 .arrow-left {
-  background-image: url('assets/svg/arrow-left.svg');
+  background-image: url('./assets/svg/arrow-left.svg');
 }
 
 .arrow-right {
-  background-image: url('assets/svg/arrow-right.svg');
+  background-image: url('./assets/svg/arrow-right.svg');
 }
 
 .mail-form {
