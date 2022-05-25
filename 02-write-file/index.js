@@ -13,6 +13,10 @@ const rl = readline.createInterface({
 console.log('Write the text you want to add');
 
 rl.on('line', (input) => {
+  if(input == 'exit'){
+    console.log('Good luck, my friend!');
+    return rl.close();
+  }
   fs.appendFile(
     path.join(__dirname, 'result.txt'),
     input + '\n',
@@ -20,10 +24,6 @@ rl.on('line', (input) => {
       if (err) throw err;
     }
   );
-  if(input == 'exit'){
-    console.log('Good luck, my friend!');
-    rl.close();
-  }
 });
 
 rl.on('SIGINT', () => {
